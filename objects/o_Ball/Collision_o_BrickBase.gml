@@ -1,0 +1,10 @@
+var px = xprevious;
+var py = yprevious;
+x = px;
+y = py;
+move_contact_solid(direction, speed);
+part_particles_burst(global.ps_HitBall, x, y, ps_HitBall);
+x = px;
+y = py;
+move_bounce_solid(true);
+instance_destroy(other);

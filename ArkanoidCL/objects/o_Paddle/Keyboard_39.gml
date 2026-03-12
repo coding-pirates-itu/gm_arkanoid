@@ -1,0 +1,1 @@
+move_contact_all(0, 8);

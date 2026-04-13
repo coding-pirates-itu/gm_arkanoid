@@ -23,3 +23,11 @@ if (abs(direction - 90) < 15)
 {
     direction += sign(direction - 90);
 }
+else if (direction < 15)
+{
+    direction += 1;
+}
+else if (direction > 360 - 15)
+{
+    direction -= 1;
+}

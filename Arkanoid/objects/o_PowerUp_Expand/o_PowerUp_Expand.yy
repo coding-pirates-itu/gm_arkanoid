@@ -7,7 +7,7 @@
   "managed":true,
   "name":"o_PowerUp_Expand",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_PowerUp_Base","path":"objects/o_PowerUp_Base/o_PowerUp_Base.yy",},"propertyId":{"name":"duration","path":"objects/o_PowerUp_Base/o_PowerUp_Base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"12",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_PowerUp_Base","path":"objects/o_PowerUp_Base/o_PowerUp_Base.yy",},"propertyId":{"name":"Duration","path":"objects/o_PowerUp_Base/o_PowerUp_Base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"12",},
   ],
   "parent":{
     "name":"Power ups",

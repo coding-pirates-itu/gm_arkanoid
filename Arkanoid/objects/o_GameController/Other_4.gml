@@ -7,3 +7,6 @@ for (var i = 0; i < instance_number(o_Brick_Base); i++)
 	    brick.PowerUp = power_ups[pidx];
     }
 }
+
+o_Paddle.ResetPaddle();
+global.DurationMax = 0;

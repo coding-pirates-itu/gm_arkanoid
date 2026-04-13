@@ -1,2 +1,2 @@
-other.SetGlue(duration);
+other.SetGlue();
 event_inherited();

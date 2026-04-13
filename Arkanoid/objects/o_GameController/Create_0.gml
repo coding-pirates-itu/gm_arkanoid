@@ -4,9 +4,15 @@ enum GameStates
     GameOver
 }
 
-global.ps_HitBall = part_system_create_layer("Effects", true, ps_HitBall);
 
-power_ups = [o_PowerUp_Glue, o_PowerUp_Expand];
+function PowerUpDuration(duration)
+{
+    var frames = fps * duration;
+    alarm_set(0, frames);
+    global.DurationMax = frames;
+    global.DurationLeft = frames;
+}
+
 
 function BallLost()
 {
@@ -17,3 +23,6 @@ function BallLost()
         layer_set_visible(layer_get_id("UI_GameOver"), true);
     }
 }
+
+global.ps_HitBall = part_system_create_layer("Effects", true, ps_HitBall);
+power_ups = [o_PowerUp_Glue, o_PowerUp_Expand];

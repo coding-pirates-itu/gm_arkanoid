@@ -5,22 +5,20 @@ enum PaddleStates
     Glue
 }
 
-function SetSize(multiplier, duration)
+function SetSize(multiplier)
 {
-    Reset();
+    ResetPaddle();
     image_xscale = size_x * multiplier;
-    alarm_set(0, fps * duration);
 }
 
 function SetGlue(duration)
 {
-    Reset();
+    ResetPaddle();
     state = PaddleStates.Glue;
-    alarm_set(0, fps * duration);
     image_index = 1;
 }
 
-function Reset()
+function ResetPaddle()
 {
     image_xscale = size_x;
     state = PaddleStates.Normal;

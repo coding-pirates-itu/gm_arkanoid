@@ -1,2 +1,2 @@
-move_contact_solid(0, bat_speed);
+move_contact_solid(0, MoveSpeed);
 go_to_mouse = false;

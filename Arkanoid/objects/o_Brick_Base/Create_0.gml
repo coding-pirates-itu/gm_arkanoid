@@ -9,5 +9,6 @@ function Hit()
         instance_create_layer(x, y, "Instances", PowerUp);
     }
 
+    global.GameScore++;
     instance_destroy();
 }

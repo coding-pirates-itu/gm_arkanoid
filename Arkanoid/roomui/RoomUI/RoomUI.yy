@@ -6,8 +6,11 @@
     {"$GMRUILayer":"v1","%Name":"UI_InGame","alignItems":1,"children":[
         {"$GMRFlexPanel":"","%Name":"FlexPanel","alignItems":2,"children":[
             {"$GMRInstance":"v4","%Name":"inst_44D72716","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_44D72716","objectId":{"name":"o_Score","path":"objects/o_Score/o_Score.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":1.0,"x":96.0,"y":32.0,},
-          ],"flexDirection":0,"height":{"unit":3,"value":64.0,},"justifyContent":1,"name":"FlexPanel","nodeColour":4282937074,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":64.0,},},
-      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":0,"name":"UI_InGame","nodeColour":4294068433,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+          ],"flexDirection":0,"height":{"unit":3,"value":64.0,},"justifyContent":1,"marginLeft":{"unit":1,"value":10.0,},"name":"FlexPanel","nodeColour":4282937074,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":64.0,},},
+        {"$GMRFlexPanel":"","%Name":"FlexPanel_1","alignItems":2,"children":[
+            {"$GMRInstance":"v4","%Name":"inst_74BECE6C","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":2,"resourceType":"InstanceFlexProps",},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_74BECE6C","objectId":{"name":"o_PowerUpDuration","path":"objects/o_PowerUpDuration/o_PowerUpDuration.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":6.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+          ],"flexDirection":0,"height":{"unit":3,"value":16.0,},"justifyContent":1,"marginRight":{"unit":1,"value":10.0,},"marginTop":{"unit":1,"value":16.0,},"name":"FlexPanel_1","nodeColour":4294071368,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":16.0,},},
+      ],"flexDirection":2,"gridX":32,"gridY":32,"justifyContent":3,"name":"UI_InGame","nodeColour":4294068433,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
   ],
   "locked":false,
   "name":"RoomUI",

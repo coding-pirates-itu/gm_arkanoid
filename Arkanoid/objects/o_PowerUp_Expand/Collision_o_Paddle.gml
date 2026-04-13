@@ -1,2 +1,2 @@
-other.SetSize(SizeMultiplier, duration);
+other.SetSize(SizeMultiplier);
 event_inherited();

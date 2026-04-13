@@ -35,6 +35,7 @@
     {"name":"inst_429052C5","path":"rooms/rm_Level_1/rm_Level_1.yy",},
     {"name":"inst_76A67BA6","path":"rooms/rm_Level_1/rm_Level_1.yy",},
     {"name":"inst_44D72716","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_74BECE6C","path":"roomui/RoomUI/RoomUI.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -91,7 +92,7 @@
     "Height":768,
     "inheritRoomSettings":false,
     "persistent":false,
-    "Width":1366,
+    "Width":1352,
   },
   "sequenceId":null,
   "views":[

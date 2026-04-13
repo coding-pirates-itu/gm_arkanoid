@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"o_Score",
+  "%Name":"o_Lives",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_Score",
+  "name":"o_Lives",
   "overriddenProperties":[],
   "parent":{
     "name":"UI",
@@ -26,14 +26,14 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"ForeColor","filters":[],"listItems":[],"multiselect":false,"name":"ForeColor","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FFC12E55","varType":7,},
+    {"$GMObjectProperty":"v2","%Name":"ForeColor","filters":[],"listItems":[],"multiselect":false,"name":"ForeColor","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FF3D0E19","varType":7,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_Score",
-    "path":"sprites/s_Score/s_Score.yy",
+    "name":"s_Lives",
+    "path":"sprites/s_Lives/s_Lives.yy",
   },
   "spriteMaskId":null,
   "visible":true,

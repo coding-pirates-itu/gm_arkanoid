@@ -4,11 +4,7 @@ enum BallStates
     Flying
 }
 
-direction = 60;
-GlueToPaddle();
 
-
-// Utility
 function GlueToPaddle()
 {
     state = BallStates.Glued;
@@ -16,3 +12,12 @@ function GlueToPaddle()
     glued_offset_y = y - o_Paddle.y;
     speed = 0;
 }
+
+function InitBall()
+{
+    direction = 60;
+    GlueToPaddle();
+}
+
+
+InitBall();

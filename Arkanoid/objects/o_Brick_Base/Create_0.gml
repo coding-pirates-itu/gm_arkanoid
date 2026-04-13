@@ -10,7 +10,7 @@ function Hit()
         
     if (PowerUp != noone)
     {
-        instance_create_layer(x, y, "Instances", PowerUp);
+        instance_create_layer(x, y, "Effects", PowerUp);
     }
 
     global.GameScore++;

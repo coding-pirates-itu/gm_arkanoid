@@ -18,14 +18,20 @@ function SetGlue(duration)
     image_index = 1;
 }
 
-function ResetPaddle()
+function ResetPaddle(initLevel = false)
 {
     image_xscale = size_x;
-    state = PaddleStates.Normal;
+    if (initLevel)
+    {
+        state = PaddleStates.Startup;
+    }
+    else
+    {
+        state = PaddleStates.Normal;
+    }
     image_index = 0;
 }
 
-state = PaddleStates.Startup;
 size_x = image_xscale;
 prev_mouse_x = mouse_x;
 go_to_mouse = false;

@@ -19,6 +19,10 @@ if (state == BallStates.Glued)
     }
 }
 
+if (abs(direction - 90) < 1)
+{
+    direction += 1;
+}
 if (abs(direction - 90) < 15)
 {
     direction += sign(direction - 90);

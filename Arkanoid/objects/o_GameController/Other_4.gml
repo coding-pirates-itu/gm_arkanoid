@@ -1,3 +1,9 @@
+if (room == rm_GameOver)
+{
+    UiGameOver();
+    exit;
+}
+
 for (var i = 0; i < instance_number(o_Brick_Base); i++)
 {
     if (random(100) < PowerUpChance)
@@ -8,5 +14,5 @@ for (var i = 0; i < instance_number(o_Brick_Base); i++)
     }
 }
 
-o_Paddle.ResetPaddle();
+o_Paddle.ResetPaddle(true);
 global.DurationMax = 0;

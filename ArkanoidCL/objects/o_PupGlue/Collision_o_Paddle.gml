@@ -1,2 +1,2 @@
-o_Paddle.SetGlue(900);
+o_Paddle.SetGlue(15);
 event_inherited();

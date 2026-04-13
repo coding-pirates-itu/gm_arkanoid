@@ -1,2 +1,2 @@
-if (y > o_Bat.y + o_Bat.sprite_height)
+if (y > o_Paddle.y + o_Paddle.sprite_height)
     instance_destroy();

@@ -1,10 +1,14 @@
 {
   "$GMObject":"",
   "%Name":"o_PowerUp_Glue",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"o_Paddle","path":"objects/o_Paddle/o_Paddle.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"o_PowerUp_Glue",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_PowerUp_Base","path":"objects/o_PowerUp_Base/o_PowerUp_Base.yy",},"propertyId":{"name":"duration","path":"objects/o_PowerUp_Base/o_PowerUp_Base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"15",},
+  ],
   "parent":{
     "name":"Power ups",
     "path":"folders/Power ups.yy",

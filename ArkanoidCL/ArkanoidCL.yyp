@@ -12,6 +12,7 @@
   "Folders":[
     {"$GMFolder":"","%Name":"Ball","folderPath":"folders/Ball.yy","name":"Ball","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Bricks","folderPath":"folders/Bricks.yy","name":"Bricks","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Game","folderPath":"folders/Game.yy","name":"Game","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Levels","folderPath":"folders/Levels.yy","name":"Levels","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paddle","folderPath":"folders/Paddle.yy","name":"Paddle","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Power ups","folderPath":"folders/Power ups.yy","name":"Power ups","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -23,7 +24,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.1400.4.1011",
+    "IDEVersion":"2024.1400.4.1030",
   },
   "name":"ArkanoidCL",
   "resources":[

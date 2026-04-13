@@ -1,7 +1,6 @@
 direction = 60;
 speed = init_speed;
 
-// Added
 enum BallStates
 {
     Glued,

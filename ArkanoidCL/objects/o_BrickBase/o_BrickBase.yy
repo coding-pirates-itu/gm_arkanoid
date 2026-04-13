@@ -29,7 +29,7 @@
     {"$GMObjectProperty":"v2","%Name":"hits","filters":[],"listItems":[],"multiselect":false,"name":"hits","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
     {"$GMObjectProperty":"v2","%Name":"power_up","filters":[
         "GMObject",
-      ],"listItems":[],"multiselect":false,"name":"power_up","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"o_PupGlue","path":"objects/o_PupGlue/o_PupGlue.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"o_PupGlue","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"power_up","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -1,14 +1,9 @@
-var pup = PowerUpChance;
-var pups = 0;
-var owner = self;
-
-with (o_Brick_Base)
+for (var i = 0; i < instance_number(o_Brick_Base); i++)
 {
-    if (random(100) < pup)
+    if (random(100) < PowerUpChance)
     {
-        PowerUp = owner.power_ups[irandom(array_length(owner.power_ups) - 1)];
-        pups++;
+        brick = instance_find(o_Brick_Base, i);
+        pidx = irandom(array_length(power_ups) - 1);
+	    brick.PowerUp = power_ups[pidx];
     }
 }
-
-show_debug_message("Created PUPs: " + string(pups));

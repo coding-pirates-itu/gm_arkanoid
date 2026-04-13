@@ -1,11 +1,14 @@
-global.gameScore = 0;
 enum GameStates
 {
     Running,
     GameOver
 }
+
 global.gameState = GameStates.Running;
+global.gameScore = 0;
 layer_set_visible(layer_get_id("UI_GameOver"), false);
+
+power_ups = [o_PupSize, o_PupGlue];
 
 
 function GameOver()

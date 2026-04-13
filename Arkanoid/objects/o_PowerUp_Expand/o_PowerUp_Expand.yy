@@ -1,10 +1,14 @@
 {
   "$GMObject":"",
   "%Name":"o_PowerUp_Expand",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"o_Paddle","path":"objects/o_Paddle/o_Paddle.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"o_PowerUp_Expand",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_PowerUp_Base","path":"objects/o_PowerUp_Base/o_PowerUp_Base.yy",},"propertyId":{"name":"duration","path":"objects/o_PowerUp_Base/o_PowerUp_Base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"12",},
+  ],
   "parent":{
     "name":"Power ups",
     "path":"folders/Power ups.yy",
@@ -26,7 +30,9 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"SizeMultiplier","filters":[],"listItems":[],"multiselect":false,"name":"SizeMultiplier","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":0,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

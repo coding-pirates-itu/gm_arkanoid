@@ -51,6 +51,8 @@
     {"id":{"name":"rm_Level_1","path":"rooms/rm_Level_1/rm_Level_1.yy",},},
     {"id":{"name":"rm_Level_2","path":"rooms/rm_Level_2/rm_Level_2.yy",},},
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
+    {"id":{"name":"snd_Break","path":"sounds/snd_Break/snd_Break.yy",},},
+    {"id":{"name":"snd_Hit","path":"sounds/snd_Hit/snd_Hit.yy",},},
     {"id":{"name":"s_Ball","path":"sprites/s_Ball/s_Ball.yy",},},
     {"id":{"name":"s_Bg_green","path":"sprites/s_Bg_green/s_Bg_green.yy",},},
     {"id":{"name":"s_Bg_red","path":"sprites/s_Bg_red/s_Bg_red.yy",},},

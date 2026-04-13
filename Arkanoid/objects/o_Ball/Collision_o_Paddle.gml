@@ -15,6 +15,7 @@ switch (other.state)
     case PaddleStates.Normal:
         part_particles_burst(global.ps_HitBall, x, y, ps_HitBall);
         move_bounce_all(true);
+        audio_play_sound(snd_Hit, 1, false);
         break;
     
     case PaddleStates.Glue:

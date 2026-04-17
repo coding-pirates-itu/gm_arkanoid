@@ -49,6 +49,6 @@ function UiGameOver()
 }
 
 
-power_ups = [o_PowerUp_Glue, o_PowerUp_Expand];
+power_ups = [o_PowerUp_Glue, o_PowerUp_Expand, o_PowerUp_Shoot];
 global.ps_HitBall = part_system_create_layer("Effects", true, ps_HitBall);
 global.Lives = InitLives;

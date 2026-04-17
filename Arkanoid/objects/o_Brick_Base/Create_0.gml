@@ -16,4 +16,9 @@ function Hit()
     global.GameScore++;
     audio_play_sound(snd_Break, 1, false);
     instance_destroy();
+
+    if (!instance_exists(o_Brick_Base))
+    {
+        o_GameController.LevelWon();
+    }
 }

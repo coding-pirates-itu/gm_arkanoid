@@ -2,7 +2,8 @@ enum PaddleStates
 {
     Startup,
     Normal,
-    Glue
+    Glue,
+    Shoot
 }
 
 function SetSize(multiplier)
@@ -16,6 +17,13 @@ function SetGlue(duration)
     ResetPaddle();
     state = PaddleStates.Glue;
     image_index = 1;
+}
+
+function SetShoot(duration)
+{
+    ResetPaddle();
+    state = PaddleStates.Shoot;
+    image_index = 2;
 }
 
 function ResetPaddle(initLevel = false)

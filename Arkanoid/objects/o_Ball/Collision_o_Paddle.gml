@@ -1,5 +1,4 @@
-if (state == BallStates.Glued)
-    exit;
+if (state == BallStates.Glued) exit;
     
 if (o_Paddle.state == PaddleStates.Startup)
 {
@@ -13,6 +12,7 @@ move_contact_all(direction, speed);
 switch (other.state)
 {
     case PaddleStates.Normal:
+    case PaddleStates.Shoot:
         part_particles_burst(global.ps_HitBall, x, y, ps_HitBall);
         move_bounce_all(true);
         audio_play_sound(snd_Hit, 1, false);

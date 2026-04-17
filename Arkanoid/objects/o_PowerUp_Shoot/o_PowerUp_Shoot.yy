@@ -1,0 +1,43 @@
+{
+  "$GMObject":"",
+  "%Name":"o_PowerUp_Shoot",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"o_Paddle","path":"objects/o_Paddle/o_Paddle.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
+  "managed":true,
+  "name":"o_PowerUp_Shoot",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_PowerUp_Base","path":"objects/o_PowerUp_Base/o_PowerUp_Base.yy",},"propertyId":{"name":"Duration","path":"objects/o_PowerUp_Base/o_PowerUp_Base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
+  ],
+  "parent":{
+    "name":"Power ups",
+    "path":"folders/Power ups.yy",
+  },
+  "parentObjectId":{
+    "name":"o_PowerUp_Base",
+    "path":"objects/o_PowerUp_Base/o_PowerUp_Base.yy",
+  },
+  "persistent":false,
+  "physicsAngularDamping":0.1,
+  "physicsDensity":0.5,
+  "physicsFriction":0.2,
+  "physicsGroup":1,
+  "physicsKinematic":false,
+  "physicsLinearDamping":0.1,
+  "physicsObject":false,
+  "physicsRestitution":0.1,
+  "physicsSensor":false,
+  "physicsShape":1,
+  "physicsShapePoints":[],
+  "physicsStartAwake":true,
+  "properties":[],
+  "resourceType":"GMObject",
+  "resourceVersion":"2.0",
+  "solid":false,
+  "spriteId":{
+    "name":"s_PowerUp_Shoot",
+    "path":"sprites/s_PowerUp_Shoot/s_PowerUp_Shoot.yy",
+  },
+  "spriteMaskId":null,
+  "visible":true,
+}
